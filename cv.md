@@ -36,8 +36,19 @@ description: Academic CV of Dr. Muhammad Ibrahim — research scientist, adjunct
 - **ML / DL**: PyTorch, TensorFlow, Keras, Scikit-learn, OpenCV, Hugging Face.
 - **3D / Geo**: CloudCompare, MeshLab, LAStools, Ouster Studio, ROS, QGIS, Metashape Pro, DJI Terra, WebODM, Google Earth Engine.
 - **Cloud / HPC**: Pawsey Setonix supercomputer, Pawsey Acacia object storage, Pawsey Nebula, Microsoft Azure, AWS.
-- **Sensors**: Ouster LiDAR (16/64 ch), Honeywell IMU, GNSS, Phase-One RGB, hyperspectral (Headwall), multispectral, thermal cameras, IoT field sensors, FPGA / DSP kits.
+- **Sensors &amp; platforms**: Ouster LiDAR (16/64/128 ch), Honeywell IMU, RTK GNSS, DJI Mavic 3 Multispectral, DJI Matrice 300 / 350 RTK, Phase-One RGB, GOBI and Kelvis RGB + LiDAR + VNIR payloads, Headwall hyperspectral, multispectral, thermal cameras, IoT field sensors, FPGA / DSP kits.
 - **Tooling**: Git/GitHub, Linux/Bash, LaTeX, Docker.
+
+## Drone data collection &amp; processing
+
+I plan, fly and process UAV campaigns for DPIRD and the Australian Plant Phenomics Network (APPN) across Western Australian field trials, from flight planning and ground control to calibrated, FAIR-ready data products on Pawsey.
+
+- **DJI Mavic 3 Multispectral** — RGB and multispectral (green, red, red-edge, NIR with sunlight sensor) surveys for vegetation indices, flowering, weed and canopy-cover mapping.
+- **DJI Matrice 300 RTK and Matrice 350 RTK** — heavy-lift RTK platforms carrying the **Phase One** high-resolution camera (IIQ raw captures converted to geotagged JPEG / GeoTIFF for Metashape and QGIS) for mm-scale plot imagery.
+- **GOBI integrated payload** — co-registered **RGB, LiDAR and VNIR hyperspectral (172 bands)** acquisition in a single flight, with co-aligned GNSS / IMU logging.
+- **Kelvis integrated payload** — co-registered **RGB, LiDAR and VNIR** acquisition for structural and spectral phenotyping of the same plots.
+- **Processing pipeline**: PPK / RTK trajectory and GNSS file filtering, orthomosaicking and dense reconstruction (Agisoft Metashape, DJI Terra, WebODM), radiometric and reflectance calibration with field spectrometer ground truth (SED to Excel), per-plot extraction from raw frames and orthomosaics (Plot Extractor), LiDAR ground classification and canopy traits, VNIR cube QC and spectral indices (PhenoApp), SAM&nbsp;3.1-assisted labelling (CropLabel), and transfer, sync and publishing of terabyte-scale datasets to Pawsey Acacia (PDMA).
+- **Outputs**: plant height, biomass, canopy cover and gap metrics, ~200 spectral indices, weed / crop maps and flowering predictions delivered per plot with QC tables and provenance for agronomists and breeders.
 
 ## Citations &amp; impact
 
