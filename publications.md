@@ -11,25 +11,30 @@ A complete and continuously updated list is available on my **[Google Scholar pr
 
 > **Indicators (2025/2026)** — Featured venues include *IEEE T-ITS* (IF 9.6), *IEEE JSTARS* (IF 5.3), *Remote Sensing* (IF 4.2), *IEEE Access* (IF 3.5), and Tier-A conferences *ICRA*, *IROS*, *IGARSS*, *NeurIPS*, *ECCV*, *DICTA*.
 
-## Accepted &amp; In Press (2026)
+## Published &amp; Accepted (2026)
 
 <ul class="pub-list">
   <li>
     <span class="tag">Conference</span> <span class="tag green">ECCV 2026</span>
+    Wang, X., <strong>Ibrahim, M.</strong>, Mansoor, A., Mian, A.
     "<strong>GridFlow: Structured Latent Flow for Seamless City-Scale 3D Point Cloud Generation.</strong>"
-    <span class="venue">European Conference on Computer Vision (ECCV) 2026</span> <span class="year">2026</span>. <em>Accepted at a top-tier computer vision venue.</em>
+    <span class="venue">European Conference on Computer Vision (ECCV) 2026</span>, LNCS, pp. 656–673, <span class="year">2026</span>. <em>Published (top-tier computer vision venue).</em>
+    <a href="https://doi.org/10.1007/978-3-032-37432-5_37" target="_blank" rel="noopener">DOI</a>
   </li>
   <li>
     <span class="tag">Journal</span> <span class="tag gold">IF 5.3</span>
     Wang, X., <strong>Ibrahim, M.</strong>, Wang, H., Mansoor, A., Jia, X., Mian, A.
     "<strong>Geo-Registration of Terrestrial LiDAR Point Clouds with Satellite Images without GNSS.</strong>"
-    <span class="venue">IEEE JSTARS</span> <span class="year">2026</span>. <em>(Second author.)</em>
+    <span class="venue">IEEE JSTARS</span> <span class="year">2026</span>. <em>Published (second author).</em>
+    <a href="https://doi.org/10.1109/JSTARS.2026.3733746" target="_blank" rel="noopener">DOI</a>
   </li>
   <li>
     <span class="tag">Journal</span> <span class="tag gold">IF 5.3</span>
     Wang, H., Albaqami, H., Wang, X., <strong>Ibrahim, M.</strong>, Malakan, Z. M., Algamdi, A. M., Alghamdi, M. H., Mian, A.
     "<strong>LiDAR, GNSS and IMU Sensor Fine Alignment through Dynamic Time Warping to Construct 3D City Maps.</strong>"
-    <span class="venue">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)</span> <span class="year">2026</span>.
+    <span class="venue">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)</span> <span class="year">2026</span>. <em>Published.</em>
+    <a href="https://doi.org/10.1109/JSTARS.2026.3683462" target="_blank" rel="noopener">DOI</a> ·
+    <a href="https://arxiv.org/abs/2507.08420" target="_blank" rel="noopener">arXiv</a>
   </li>
   <li>
     <span class="tag">Journal</span> <span class="tag gold">IF 5.3</span>
@@ -50,7 +55,8 @@ A complete and continuously updated list is available on my **[Google Scholar pr
     <span class="tag">Journal</span>
     Trinh, H., <strong>Ibrahim, M.</strong>, Charng, J., Tajbakhsh, Z., Chen, F. K., Mian, A., Alam, K.
     "<strong>Classification of Inherited Retinal Diseases using Artificial Intelligence Models for Fundus Autofluorescence and Ultrawide Retinal Images.</strong>"
-    <span class="venue">Journal of Ophthalmology</span> <span class="year">2026</span>.
+    <span class="venue">Journal of Ophthalmology</span>, 2026(1):8810684, <span class="year">2026</span>.
+    <a href="https://doi.org/10.1155/joph/8810684" target="_blank" rel="noopener">DOI</a>
   </li>
   <li>
     <span class="tag">Journal</span>
@@ -88,7 +94,22 @@ A complete and continuously updated list is available on my **[Google Scholar pr
     <span class="tag">Journal</span>
     Albaqami, H., Wang, H., Wang, X., <strong>Ibrahim, M.</strong>, Malakan, Z. M., Algamdi, A. M., Alghamdi, M. H., Mian, A.
     "<strong>LiDAR-based 3D Change Detection at City Scale.</strong>"
-    <span class="venue">Scientific Reports (Nature Portfolio)</span>. <em>Submitted.</em>
+    <span class="venue">Scientific Reports (Nature Portfolio)</span>. <em>Under review.</em>
+    <a href="https://arxiv.org/abs/2510.21112" target="_blank" rel="noopener">arXiv</a> ·
+    <a href="https://github.com/IbrahimUWA/LiDAR-3D-Change-Detection-City-Scale" target="_blank" rel="noopener">Code</a> ·
+    <a href="https://huggingface.co/datasets/ibrahim80876/Change-Detection-LiDAR-Dataset" target="_blank" rel="noopener">Dataset</a>
+  </li>
+  <li>
+    <span class="tag">Journal</span>
+    <strong>Ibrahim, M.</strong> et al.
+    "<strong>SoilProfileNet: A Deep Learning Framework for Sensor-Driven Estimation of Volumetric Water Content from Electrical Conductivity Profiles.</strong>"
+    <span class="venue">Computers and Electronics in Agriculture</span>. <em>Manuscript in preparation (first author); 667 calibration cores over two WA wheatbelt seasons.</em>
+  </li>
+  <li>
+    <span class="tag">Survey</span>
+    <strong>Ibrahim, M.</strong> et al.
+    "<strong>Outdoor 3D Scene Understanding with LiDAR: Datasets, Annotation, Registration, Mapping, Segmentation, Detection, Tracking, Localisation and Multimodal Fusion — A Survey.</strong>"
+    <span class="venue">Artificial Intelligence Review (Springer Nature)</span>. <em>Manuscript in preparation (University of Jeddah grant UJ-24-SUTU-1290).</em>
   </li>
   <li>
     <span class="tag">Preprint</span>
@@ -207,6 +228,29 @@ A complete and continuously updated list is available on my **[Google Scholar pr
   </li>
   <li>
     <span class="tag green">Dataset</span>
-    "<strong>WA Paddock Dataset (2020–2022)</strong>" — 450,000 paddocks, integrating Sentinel-2, soil and weather data with SHAP analysis for crop yield prediction.
+    "<strong>2023 and 2025 Subiaco WA 3D HD LiDAR Point Cloud Maps</strong>" — bi-temporal mobile-LiDAR city surveys (533 M and 1.02 B points; the 2025 survey includes RTK GNSS / IMU logs).
+    <a href="https://ieee-dataport.org/documents/2023-subiaco-wa-3d-hd-lidar-point-cloud-maps-dataset" target="_blank" rel="noopener">2023 (IEEE DataPort)</a> ·
+    <a href="https://ieee-dataport.org/documents/2025-subiaco-wa-3d-hd-lidar-gnss-point-cloud-maps-dataset" target="_blank" rel="noopener">2025 (IEEE DataPort)</a>
   </li>
+  <li>
+    <span class="tag green">Dataset</span>
+    "<strong>Change-Detection LiDAR Dataset</strong>" — 20 co-registered 2023 / 2025 Subiaco point-cloud pairs with alignment metadata (CC BY 4.0, ~7 GB).
+    <a href="https://huggingface.co/datasets/ibrahim80876/Change-Detection-LiDAR-Dataset" target="_blank" rel="noopener">Hugging Face</a> ·
+    <a href="https://github.com/IbrahimUWA/LiDAR-3D-Change-Detection-City-Scale" target="_blank" rel="noopener">Code (MIT)</a>
+  </li>
+  <li>
+    <span class="tag green">Dataset</span>
+    "<strong>WA Paddock Dataset (2020–2023)</strong>" — 450,000 paddocks, integrating Sentinel-2, soil and weather data with SHAP analysis for crop yield prediction; released with the TGRS paper.
+    <a href="https://github.com/IbrahimUWA/Hierarchical-MultiScale-Crop-Yield-WA" target="_blank" rel="noopener">GitHub</a>
+  </li>
+</ul>
+
+## Open-source software (2026)
+
+<ul class="pub-list">
+  <li><span class="tag green">Software</span> <strong>PhenoApp v3.3.2</strong> — plant phenotyping from UAV LiDAR + VNIR with height / biomass models and pretrained two-stream deep ensembles. <a href="https://github.com/appndpird/DESKTOP-POINTCLOUD-APP" target="_blank" rel="noopener">GitHub</a></li>
+  <li><span class="tag green">Software</span> <strong>CropLabel</strong> — SAM 3.1-assisted instance + semantic labelling of crop plants, weeds and soil. <a href="https://github.com/appndpird/CropLabel" target="_blank" rel="noopener">GitHub</a></li>
+  <li><span class="tag green">Software</span> <strong>Plot Extractor</strong> — geotagged per-plot raw-image and orthomosaic crops from Metashape projects or GeoTIFFs. <a href="https://github.com/appndpird/plot-extractor" target="_blank" rel="noopener">GitHub</a></li>
+  <li><span class="tag green">Software</span> <strong>Pawsey Data Management App (PDMA) v2.5.1</strong> — rclone-based transfer, two-way sync, sharing and publishing on Pawsey Acacia. <a href="https://github.com/appndpird/pawsey-uploader" target="_blank" rel="noopener">GitHub</a></li>
+  <li><span class="tag green">Software</span> <strong>LiDAR 3D Change Detection at City Scale</strong> — pipeline, data-preparation scripts and evaluation code. <a href="https://github.com/IbrahimUWA/LiDAR-3D-Change-Detection-City-Scale" target="_blank" rel="noopener">GitHub</a></li>
 </ul>

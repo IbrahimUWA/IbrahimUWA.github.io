@@ -32,13 +32,14 @@ I lead the design of **AI-driven decision-support systems** that integrate satel
 
 - **Spatial Hybrid Model for Crop Yield Prediction** (IGARSS 2025) integrating Sentinel-2, weather, soil and yield records with explainability via SHAP and PCA.
 - **End-to-end UAV phenomics pipeline** for the Australian Plant Phenomics Network (APPN) — orthomosaicking, radiometric calibration, plot extraction, biomass / NDVI / GLI traits.
-- **Foundation-model-based root phenotyping** to predict volumetric water content from imagery, replacing labour-intensive manual sampling.
+- **Plant-height and biomass estimation from LiDAR + VNIR** — [PhenoApp](/projects/) fuses per-plot LiDAR structure features with hyperspectral spectra through PCA feature families and a two-stream deep network (sparse 3D CNN + spectral transformer), reaching ~3 cm height RMSE on wheat trials; released with [CropLabel](/projects/) (SAM 3.1 plant / weed labelling) and [Plot Extractor](/projects/) in 2026.
+- **SoilProfileNet** — deep learning that predicts volumetric soil water content at ten depths from electromagnetic-induction conductivity profiles (667 calibration cores, two WA seasons), replacing destructive coring.
 - **Weed segmentation benchmarks** (BAWSeg / *Remote Sensing* 2026; DICTA 2024) at >90 % accuracy.
 
 ## Theme 4 — Multimodal Robotics, Autonomy and Smart Cities
 
-- **3D city mapping with sensor fusion** of LiDAR + GNSS + IMU using Dynamic Time Warping for fine alignment (*IEEE JSTARS* 2026).
-- **City-scale 3D change detection** (*Scientific Reports*, submitted) for urban planning and infrastructure monitoring.
+- **3D city mapping with sensor fusion** of LiDAR + GNSS + IMU using Dynamic Time Warping for fine alignment (*IEEE JSTARS* 2026, published).
+- **City-scale 3D change detection** (*Scientific Reports*, under review; code and the 20-pair Subiaco benchmark released) for urban planning and infrastructure monitoring.
 - **Object detection for autonomous driving** via multistream LiDAR + camera fusion (IROS 2025).
 
 ## Theme 5 — LLMs, Prompt Engineering &amp; AI for Science
